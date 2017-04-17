@@ -1,7 +1,3 @@
-If you wanna contribute please submit a PR to one of the [iris-contrib organisation's](https://github.com/iris-contrib) projects.
-
-##### Note that I do not accept pull requests here and that I use the issue tracker for bug reports and proposals only. Please ask questions on the [https://kataras.rocket.chat/channel/iris][Chat] or [http://stackoverflow.com/](http://stackoverflow.com).
-
 ## Before Submitting an Issue
 
 First, please do a search in [open issues](http://support.iris-go.com) to see if the issue or feature request has already been filed. If there is an issue add your comments to this issue.
