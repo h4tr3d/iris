@@ -5,7 +5,7 @@ package websocket
 import (
 	"strings"
 
-	"gopkg.in/kataras/iris.v6"
+	"github.com/iris-framework/iris"
 )
 
 // New returns a new websocket server policy adaptor.

@@ -3,9 +3,9 @@ package main
 import (
 	"bytes"
 
+	"github.com/iris-framework/iris"
+	"github.com/iris-framework/iris/adaptors/httprouter"
 	"github.com/kataras/go-mailer"
-	"gopkg.in/kataras/iris.v6"
-	"gopkg.in/kataras/iris.v6/adaptors/httprouter"
 )
 
 func main() {

@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"gopkg.in/kataras/iris.v6"
-	"gopkg.in/kataras/iris.v6/adaptors/httprouter"
-	"gopkg.in/kataras/iris.v6/adaptors/websocket"
+	"github.com/iris-framework/iris"
+	"github.com/iris-framework/iris/adaptors/httprouter"
+	"github.com/iris-framework/iris/adaptors/websocket"
 
 	xwebsocket "golang.org/x/net/websocket"
 )

@@ -13,9 +13,9 @@ import (
 	"time"
 
 	"github.com/boltdb/bolt"
-	"gopkg.in/kataras/iris.v6"
-	"gopkg.in/kataras/iris.v6/adaptors/httprouter"
-	"gopkg.in/kataras/iris.v6/adaptors/view"
+	"github.com/iris-framework/iris"
+	"github.com/iris-framework/iris/adaptors/httprouter"
+	"github.com/iris-framework/iris/adaptors/view"
 )
 
 // a custom Iris event policy, which will run when server interruped (i.e control+C)

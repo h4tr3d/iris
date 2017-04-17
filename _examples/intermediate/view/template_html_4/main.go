@@ -2,9 +2,9 @@
 package main
 
 import (
-	"gopkg.in/kataras/iris.v6"
-	"gopkg.in/kataras/iris.v6/adaptors/gorillamux"
-	"gopkg.in/kataras/iris.v6/adaptors/view"
+	"github.com/iris-framework/iris"
+	"github.com/iris-framework/iris/adaptors/gorillamux"
+	"github.com/iris-framework/iris/adaptors/view"
 )
 
 func main() {

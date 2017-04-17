@@ -4,8 +4,8 @@ package iris_test
 import (
 	"testing"
 
-	"gopkg.in/kataras/iris.v6"
-	"gopkg.in/kataras/iris.v6/httptest"
+	"github.com/iris-framework/iris"
+	"github.com/iris-framework/iris/httptest"
 )
 
 const testCustomHandlerParamName = "myparam"

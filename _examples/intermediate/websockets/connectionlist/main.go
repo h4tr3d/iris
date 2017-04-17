@@ -5,10 +5,10 @@ import (
 	"sync"
 	"time"
 
-	"gopkg.in/kataras/iris.v6"
-	"gopkg.in/kataras/iris.v6/adaptors/httprouter"
-	"gopkg.in/kataras/iris.v6/adaptors/view"
-	"gopkg.in/kataras/iris.v6/adaptors/websocket"
+	"github.com/iris-framework/iris"
+	"github.com/iris-framework/iris/adaptors/httprouter"
+	"github.com/iris-framework/iris/adaptors/view"
+	"github.com/iris-framework/iris/adaptors/websocket"
 )
 
 type clientPage struct {

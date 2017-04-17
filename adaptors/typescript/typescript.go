@@ -12,8 +12,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"gopkg.in/kataras/iris.v6"
-	"gopkg.in/kataras/iris.v6/adaptors/typescript/npm"
+	"github.com/iris-framework/iris"
+	"github.com/iris-framework/iris/adaptors/typescript/npm"
 )
 
 type (

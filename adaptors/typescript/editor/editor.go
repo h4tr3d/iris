@@ -4,7 +4,7 @@ package editor
 //  | Editor usage                                               |
 //  +------------------------------------------------------------+
 //
-// 	import "gopkg.in/kataras/iris.v6/adaptors/editor"
+// 	import "github.com/iris-framework/iris/adaptors/editor"
 //
 // 	e := editor.New(editor.Config{})
 // 	app.Adapt(e)
@@ -28,8 +28,8 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"gopkg.in/kataras/iris.v6"
-	"gopkg.in/kataras/iris.v6/adaptors/typescript/npm"
+	"github.com/iris-framework/iris"
+	"github.com/iris-framework/iris/adaptors/typescript/npm"
 )
 
 type (

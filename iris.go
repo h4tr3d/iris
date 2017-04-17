@@ -11,7 +11,7 @@
 // basicauth,internalization, logging,
 // and much more,
 //
-// please visit https://godoc.org/gopkg.in/kataras/iris.v6
+// please visit https://godoc.org/github.com/iris-framework/iris
 package iris
 
 import (
@@ -972,9 +972,9 @@ Edit your main .go source file to adapt one of these and restart your app.
 	i.e: lines (<---) were missing.
 	-------------------------------------------------------------------
 	import (
-		"gopkg.in/kataras/iris.v6"
-		"gopkg.in/kataras/iris.v6/adaptors/httprouter" // or gorillamux
-		"gopkg.in/kataras/iris.v6/adaptors/view" // <--- this line
+		"github.com/iris-framework/iris"
+		"github.com/iris-framework/iris/adaptors/httprouter" // or gorillamux
+		"github.com/iris-framework/iris/adaptors/view" // <--- this line
 	)
 
 	func main(){
