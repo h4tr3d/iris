@@ -423,6 +423,20 @@ The Iris philosophy is to provide robust tooling for HTTP, making it a great sol
 
 Iris does not force you to use any specific ORM or template engine. Iris is routerless which means you can adapt any router you like, [httprouter](https://github.com/iris-framework/iris/blob/v6/_examples/beginner/routes-using-httprouter/main.go) is the fastest, [gorillamux](https://github.com/iris-framework/iris/blob/v6/_examples/beginner/routes-using-gorillamux/main.go) has more features. With support for the most used template engines (5), you can quickly craft the perfect application.
 
+Contributors
+------------
+
+This is the list of the original contributors. Some of them are missing! Please help us to update it.
+
+If you feel that you made any significant contribution to the project, feel free to add your name to this list.
+
+* @kataras
+* @p4tin
+* @wsantos
+* @Mikoj
+* @keuller
+* @thesyncim
+
 License
 ------------
 
