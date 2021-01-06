@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/h4tr3d/iris/_future/ipel/ast"
-	"github.com/h4tr3d/iris/_future/ipel/lexer"
-	"github.com/h4tr3d/iris/_future/ipel/token"
+	"github.com/h4tr3d/iris/v6/_future/ipel/ast"
+	"github.com/h4tr3d/iris/v6/_future/ipel/lexer"
+	"github.com/h4tr3d/iris/v6/_future/ipel/token"
 )
 
 type Parser struct {

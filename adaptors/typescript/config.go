@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/h4tr3d/iris/adaptors/typescript/npm"
+	"github.com/h4tr3d/iris/v6/adaptors/typescript/npm"
 )
 
 var (

@@ -3,7 +3,7 @@ package lexer
 import (
 	"testing"
 
-	"github.com/h4tr3d/iris/_future/ipel/token"
+	"github.com/h4tr3d/iris/v6/_future/ipel/token"
 )
 
 func TestNextToken(t *testing.T) {

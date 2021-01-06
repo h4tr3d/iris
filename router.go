@@ -70,8 +70,8 @@ Edit your main .go source file to adapt one of these routers and restart your ap
 	i.e: lines (<---) were missing.
 	----------------------------HTTPROUTER----------------------------------
 	import (
-		"github.com/h4tr3d/iris"
-		"github.com/h4tr3d/iris/adaptors/httprouter" // <--- this line
+		"github.com/h4tr3d/iris/v6"
+		"github.com/h4tr3d/iris/v6/adaptors/httprouter" // <--- this line
 	)
 
 	func main(){
@@ -89,8 +89,8 @@ Edit your main .go source file to adapt one of these routers and restart your ap
 	----------------------------OR GORILLA MUX-------------------------------
 
 	import (
-	    "github.com/h4tr3d/iris"
-	    "github.com/h4tr3d/iris/adaptors/gorillamux" // <--- or this line
+	    "github.com/h4tr3d/iris/v6"
+	    "github.com/h4tr3d/iris/v6/adaptors/gorillamux" // <--- or this line
 	)
 
 	func main(){

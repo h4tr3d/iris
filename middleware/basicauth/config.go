@@ -3,8 +3,8 @@ package basicauth
 import (
 	"time"
 
+	"github.com/h4tr3d/iris/v6"
 	"github.com/imdario/mergo"
-	"github.com/h4tr3d/iris"
 )
 
 const (

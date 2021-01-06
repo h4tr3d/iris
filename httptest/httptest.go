@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
+	"github.com/h4tr3d/iris/v6"
 	"github.com/iris-contrib/httpexpect"
-	"github.com/h4tr3d/iris"
 )
 
 type (

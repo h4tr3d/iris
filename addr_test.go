@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/h4tr3d/iris/v6"
+	"github.com/h4tr3d/iris/v6/httptest"
 	"github.com/iris-contrib/httpexpect"
-	"github.com/h4tr3d/iris"
-	"github.com/h4tr3d/iris/httptest"
 )
 
 func getRandomNumber(min int, max int) int {

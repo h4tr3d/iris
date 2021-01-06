@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"strings"
 
+	"github.com/h4tr3d/iris/v6"
 	"github.com/unknwon/i18n"
-	"github.com/h4tr3d/iris"
 )
 
 type i18nMiddleware struct {

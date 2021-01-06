@@ -5,14 +5,14 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/h4tr3d/iris"
+	"github.com/h4tr3d/iris/v6"
 )
 
 //  +------------------------------------------------------------+
 //  | Middleware usage                                           |
 //  +------------------------------------------------------------+
 //
-// import "github.com/h4tr3d/iris/middleware/basicauth"
+// import "github.com/h4tr3d/iris/v6/middleware/basicauth"
 //
 // app := iris.New()
 // authentication := basicauth.Default(map[string]string{"myusername": "mypassword", "mySecondusername": "mySecondpassword"})

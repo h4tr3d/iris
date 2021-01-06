@@ -3,4 +3,4 @@ language: go
 go:
     - go1.8
 
-go_import_path: github.com/h4tr3d/iris
+go_import_path: github.com/h4tr3d/iris/v6

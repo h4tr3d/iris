@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/h4tr3d/iris"
-	"github.com/h4tr3d/iris/httptest"
+	"github.com/h4tr3d/iris/v6"
+	"github.com/h4tr3d/iris/v6/httptest"
 )
 
 type renderTestInformationType struct {

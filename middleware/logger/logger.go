@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/h4tr3d/iris"
+	"github.com/h4tr3d/iris/v6"
 )
 
 type loggerMiddleware struct {

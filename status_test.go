@@ -3,10 +3,10 @@ package iris_test
 import (
 	"testing"
 
-	"github.com/h4tr3d/iris"
-	"github.com/h4tr3d/iris/adaptors/gorillamux"
-	"github.com/h4tr3d/iris/adaptors/httprouter"
-	"github.com/h4tr3d/iris/httptest"
+	"github.com/h4tr3d/iris/v6"
+	"github.com/h4tr3d/iris/v6/adaptors/gorillamux"
+	"github.com/h4tr3d/iris/v6/adaptors/httprouter"
+	"github.com/h4tr3d/iris/v6/httptest"
 )
 
 func testStatusErrors(routerPolicy iris.Policy, t *testing.T) {

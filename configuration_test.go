@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/h4tr3d/iris"
+	. "github.com/h4tr3d/iris/v6"
 )
 
 // $ go test -v -run TestConfiguration*

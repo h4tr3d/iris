@@ -1,7 +1,7 @@
 package evaluator
 
 import (
-	"github.com/h4tr3d/iris/_future/ipel/ast"
+	"github.com/h4tr3d/iris/v6/_future/ipel/ast"
 )
 
 // exported to be able to change how param types are evaluating

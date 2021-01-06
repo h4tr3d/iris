@@ -5,14 +5,14 @@ package websocket
 import (
 	"strings"
 
-	"github.com/h4tr3d/iris"
+	"github.com/h4tr3d/iris/v6"
 )
 
 // New returns a new websocket server policy adaptor.
 func New(cfg Config) Server {
 	return &server{
-		config: cfg.Validate(),
-		rooms:  make(map[string][]string, 0),
+		config:                cfg.Validate(),
+		rooms:                 make(map[string][]string, 0),
 		onConnectionListeners: make([]ConnectionFunc, 0),
 	}
 }

@@ -63,8 +63,8 @@ Example code:
       package main
 
       import (
-      	"github.com/h4tr3d/iris"
-      	"github.com/h4tr3d/iris/adaptors/httprouter" // <--- or adaptors/gorillamux
+      	"github.com/h4tr3d/iris/v6"
+      	"github.com/h4tr3d/iris/v6/adaptors/httprouter" // <--- or adaptors/gorillamux
       )
 
       func main() {
@@ -171,8 +171,8 @@ Example `gorillamux` code:
       package main
 
       import (
-      	"github.com/h4tr3d/iris"
-      	"github.com/h4tr3d/iris/adaptors/gorillamux"
+      	"github.com/h4tr3d/iris/v6"
+      	"github.com/h4tr3d/iris/v6/adaptors/gorillamux"
       )
 
       func main() {
@@ -235,8 +235,8 @@ Example `httprouter` code:
       package main
 
       import (
-        "github.com/h4tr3d/iris"
-        "github.com/h4tr3d/iris/adaptors/httprouter" // <---- NEW
+        "github.com/h4tr3d/iris/v6"
+        "github.com/h4tr3d/iris/v6/adaptors/httprouter" // <---- NEW
       )
 
       func main() {
@@ -404,8 +404,8 @@ Example code:
       package main
 
       import (
-      	"github.com/h4tr3d/iris"
-      	"github.com/h4tr3d/iris/adaptors/httprouter"
+      	"github.com/h4tr3d/iris/v6"
+      	"github.com/h4tr3d/iris/v6/adaptors/httprouter"
       )
 
       func main() {
@@ -484,8 +484,8 @@ Example code:
 
       import (
       	"github.com/rs/cors"
-      	"github.com/h4tr3d/iris"
-      	"github.com/h4tr3d/iris/adaptors/gorillamux"
+      	"github.com/h4tr3d/iris/v6"
+      	"github.com/h4tr3d/iris/v6/adaptors/gorillamux"
       )
 
       // newCorsMiddleware returns a new cors middleware
@@ -546,9 +546,9 @@ Example code:
       package main
 
       import (
-      	"github.com/h4tr3d/iris"
-      	"github.com/h4tr3d/iris/adaptors/gorillamux"
-      	"github.com/h4tr3d/iris/adaptors/view" // <--- it contains all the template engines
+      	"github.com/h4tr3d/iris/v6"
+      	"github.com/h4tr3d/iris/v6/adaptors/gorillamux"
+      	"github.com/h4tr3d/iris/v6/adaptors/view" // <--- it contains all the template engines
       )
 
       func main() {

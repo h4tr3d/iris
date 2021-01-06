@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/gob"
 
-	"github.com/h4tr3d/iris/adaptors/sessions/sessiondb/redis/service"
+	"github.com/h4tr3d/iris/v6/adaptors/sessions/sessiondb/redis/service"
 )
 
 // Database the redis database for q sessions
