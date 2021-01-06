@@ -7,9 +7,9 @@ package main
 import (
 	"time"
 
-	"github.com/h4tr3d/iris"
-	"github.com/h4tr3d/iris/adaptors/httprouter"
-	"github.com/h4tr3d/iris/adaptors/view"
+	"github.com/h4tr3d/iris/v6"
+	"github.com/h4tr3d/iris/v6/adaptors/httprouter"
+	"github.com/h4tr3d/iris/v6/adaptors/view"
 )
 
 const (

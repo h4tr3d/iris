@@ -3,7 +3,7 @@ package main
 import (
 	"testing"
 
-	"github.com/h4tr3d/iris/httptest"
+	"github.com/h4tr3d/iris/v6/httptest"
 )
 
 // $ cd _example

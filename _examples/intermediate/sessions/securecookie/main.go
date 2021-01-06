@@ -5,9 +5,9 @@ import (
 	// At this example we use the gorilla's securecookie library:
 	"github.com/gorilla/securecookie"
 
-	"github.com/h4tr3d/iris"
-	"github.com/h4tr3d/iris/adaptors/httprouter"
-	"github.com/h4tr3d/iris/adaptors/sessions"
+	"github.com/h4tr3d/iris/v6"
+	"github.com/h4tr3d/iris/v6/adaptors/httprouter"
+	"github.com/h4tr3d/iris/v6/adaptors/sessions"
 )
 
 func main() {
@@ -31,7 +31,7 @@ func main() {
 	app.Adapt(mySessions)
 
 	// OPTIONALLY:
-	// import "github.com/h4tr3d/iris/adaptors/sessions/sessiondb/redis"
+	// import "github.com/h4tr3d/iris/v6/adaptors/sessions/sessiondb/redis"
 	// or import "github.com/kataras/go-sessions/sessiondb/$any_available_community_database"
 	// mySessions.UseDatabase(redis.New(...))
 

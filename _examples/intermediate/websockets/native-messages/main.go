@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/h4tr3d/iris"
-	"github.com/h4tr3d/iris/adaptors/httprouter"
-	"github.com/h4tr3d/iris/adaptors/view"
-	"github.com/h4tr3d/iris/adaptors/websocket"
+	"github.com/h4tr3d/iris/v6"
+	"github.com/h4tr3d/iris/v6/adaptors/httprouter"
+	"github.com/h4tr3d/iris/v6/adaptors/view"
+	"github.com/h4tr3d/iris/v6/adaptors/websocket"
 )
 
 /* Native messages no need to import the iris-ws.js to the ./templates.client.html

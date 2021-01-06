@@ -3,8 +3,8 @@ package main
 import (
 	"time"
 
-	"github.com/h4tr3d/iris"
-	"github.com/h4tr3d/iris/adaptors/httprouter"
+	"github.com/h4tr3d/iris/v6"
+	"github.com/h4tr3d/iris/v6/adaptors/httprouter"
 )
 
 var testMarkdownContents = `## Hello Markdown
@@ -51,7 +51,7 @@ All features of Sundown are supported, including:
 *   **Standards compliant**. Output successfully validates using the
     W3C validation tool for HTML 4.01 and XHTML 1.0 Transitional.
 
-	[this is a link](https://github.com/h4tr3d/iris) `
+	[this is a link](https://github.com/h4tr3d/iris/v6) `
 
 func main() {
 	app := iris.New()

@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/h4tr3d/iris"
-	"github.com/h4tr3d/iris/adaptors/httprouter"
-	"github.com/h4tr3d/iris/middleware/pprof"
+	"github.com/h4tr3d/iris/v6"
+	"github.com/h4tr3d/iris/v6/adaptors/httprouter"
+	"github.com/h4tr3d/iris/v6/middleware/pprof"
 )
 
 func main() {

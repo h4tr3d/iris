@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/h4tr3d/iris"
-	"github.com/h4tr3d/iris/adaptors/httprouter"
-	"github.com/h4tr3d/iris/adaptors/typescript"
+	"github.com/h4tr3d/iris/v6"
+	"github.com/h4tr3d/iris/v6/adaptors/httprouter"
+	"github.com/h4tr3d/iris/v6/adaptors/typescript"
 )
 
 // NOTE: Some machines don't allow to install typescript automatically, so if you don't have typescript installed

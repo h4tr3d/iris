@@ -4,8 +4,8 @@
 package main
 
 import (
-	"github.com/h4tr3d/iris"
-	"github.com/h4tr3d/iris/adaptors/httprouter"
+	"github.com/h4tr3d/iris/v6"
+	"github.com/h4tr3d/iris/v6/adaptors/httprouter"
 )
 
 // register a dynamic-wildcard subdomain to your server machine(dns/...) first, check ./hosts if you use windows.

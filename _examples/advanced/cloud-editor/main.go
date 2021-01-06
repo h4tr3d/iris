@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/h4tr3d/iris"
-	"github.com/h4tr3d/iris/adaptors/httprouter"
-	"github.com/h4tr3d/iris/adaptors/typescript" // optinally
-	"github.com/h4tr3d/iris/adaptors/typescript/editor"
+	"github.com/h4tr3d/iris/v6"
+	"github.com/h4tr3d/iris/v6/adaptors/httprouter"
+	"github.com/h4tr3d/iris/v6/adaptors/typescript" // optinally
+	"github.com/h4tr3d/iris/v6/adaptors/typescript/editor"
 )
 
 func main() {
