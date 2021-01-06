@@ -5,7 +5,7 @@ package websocket
 import (
 	"strings"
 
-	"github.com/iris-framework/iris"
+	"github.com/h4tr3d/iris"
 )
 
 // New returns a new websocket server policy adaptor.

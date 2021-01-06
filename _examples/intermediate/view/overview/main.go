@@ -3,9 +3,9 @@ package main
 import (
 	"encoding/xml"
 
-	"github.com/iris-framework/iris"
-	"github.com/iris-framework/iris/adaptors/gorillamux"
-	"github.com/iris-framework/iris/adaptors/view"
+	"github.com/h4tr3d/iris"
+	"github.com/h4tr3d/iris/adaptors/gorillamux"
+	"github.com/h4tr3d/iris/adaptors/view"
 )
 
 // ExampleXML just a test struct to view represents xml content-type

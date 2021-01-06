@@ -1,7 +1,7 @@
 package lexer
 
 import (
-	"github.com/iris-framework/iris/_future/ipel/token"
+	"github.com/h4tr3d/iris/_future/ipel/token"
 )
 
 type Lexer struct {

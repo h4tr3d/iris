@@ -5,10 +5,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/iris-framework/iris"
-	"github.com/iris-framework/iris/adaptors/httprouter"
-	"github.com/iris-framework/iris/adaptors/view"
-	"github.com/iris-framework/iris/adaptors/websocket"
+	"github.com/h4tr3d/iris"
+	"github.com/h4tr3d/iris/adaptors/httprouter"
+	"github.com/h4tr3d/iris/adaptors/view"
+	"github.com/h4tr3d/iris/adaptors/websocket"
 )
 
 type clientPage struct {

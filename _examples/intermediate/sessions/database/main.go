@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/iris-framework/iris"
-	"github.com/iris-framework/iris/adaptors/httprouter"
-	"github.com/iris-framework/iris/adaptors/sessions"
-	"github.com/iris-framework/iris/adaptors/sessions/sessiondb/redis"
-	"github.com/iris-framework/iris/adaptors/sessions/sessiondb/redis/service"
+	"github.com/h4tr3d/iris"
+	"github.com/h4tr3d/iris/adaptors/httprouter"
+	"github.com/h4tr3d/iris/adaptors/sessions"
+	"github.com/h4tr3d/iris/adaptors/sessions/sessiondb/redis"
+	"github.com/h4tr3d/iris/adaptors/sessions/sessiondb/redis/service"
 )
 
 func main() {

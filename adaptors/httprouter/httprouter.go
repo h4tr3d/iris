@@ -8,8 +8,8 @@ package httprouter
 // package main
 //
 // import (
-// 	"github.com/iris-framework/iris/adaptors/httprouter"
-// 	"github.com/iris-framework/iris"
+// 	"github.com/h4tr3d/iris/adaptors/httprouter"
+// 	"github.com/h4tr3d/iris"
 // )
 //
 // func main() {
@@ -29,7 +29,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/iris-framework/iris"
+	"github.com/h4tr3d/iris"
 	"github.com/kataras/go-errors"
 )
 

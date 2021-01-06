@@ -4,7 +4,7 @@ package editor
 //  | Editor usage                                               |
 //  +------------------------------------------------------------+
 //
-// 	import "github.com/iris-framework/iris/adaptors/editor"
+// 	import "github.com/h4tr3d/iris/adaptors/editor"
 //
 // 	e := editor.New(editor.Config{})
 // 	app.Adapt(e)
@@ -28,8 +28,8 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/iris-framework/iris"
-	"github.com/iris-framework/iris/adaptors/typescript/npm"
+	"github.com/h4tr3d/iris"
+	"github.com/h4tr3d/iris/adaptors/typescript/npm"
 )
 
 type (

@@ -1657,9 +1657,9 @@ Edit your main .go source file to adapt one of these and restart your app.
 	i.e: lines (<---) were missing.
 	-------------------------------------------------------------------
 	import (
-		"github.com/iris-framework/iris"
-		"github.com/iris-framework/iris/adaptors/httprouter" // or gorillamux
-		"github.com/iris-framework/iris/adaptors/sessions" // <--- this line
+		"github.com/h4tr3d/iris"
+		"github.com/h4tr3d/iris/adaptors/httprouter" // or gorillamux
+		"github.com/h4tr3d/iris/adaptors/sessions" // <--- this line
 	)
 
 	func main(){
@@ -1686,7 +1686,7 @@ Edit your main .go source file to adapt one of these and restart your app.
 		})
 
 		// OPTIONALLY:
-		// import "github.com/iris-framework/iris/adaptors/sessions/sessiondb/redis"
+		// import "github.com/h4tr3d/iris/adaptors/sessions/sessiondb/redis"
 		// or import "github.com/kataras/go-sessions/sessiondb/$any_available_community_database"
 		// mySessions.UseDatabase(redis.New(...))
 

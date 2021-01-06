@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/iris-framework/iris"
-	"github.com/iris-framework/iris/httptest"
+	"github.com/h4tr3d/iris"
+	"github.com/h4tr3d/iris/httptest"
 )
 
 // most tests lives inside context_test.go:Transactions, there lives the response writer's full and coblex tests

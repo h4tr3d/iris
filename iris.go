@@ -11,7 +11,7 @@
 // basicauth,internalization, logging,
 // and much more,
 //
-// please visit https://godoc.org/github.com/iris-framework/iris
+// please visit https://godoc.org/github.com/h4tr3d/iris
 package iris
 
 import (
@@ -972,9 +972,9 @@ Edit your main .go source file to adapt one of these and restart your app.
 	i.e: lines (<---) were missing.
 	-------------------------------------------------------------------
 	import (
-		"github.com/iris-framework/iris"
-		"github.com/iris-framework/iris/adaptors/httprouter" // or gorillamux
-		"github.com/iris-framework/iris/adaptors/view" // <--- this line
+		"github.com/h4tr3d/iris"
+		"github.com/h4tr3d/iris/adaptors/httprouter" // or gorillamux
+		"github.com/h4tr3d/iris/adaptors/view" // <--- this line
 	)
 
 	func main(){

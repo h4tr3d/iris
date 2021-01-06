@@ -3,9 +3,9 @@ package main
 import (
 	"time"
 
-	"github.com/iris-framework/iris"
-	"github.com/iris-framework/iris/adaptors/httprouter"
-	"github.com/iris-framework/iris/adaptors/sessions"
+	"github.com/h4tr3d/iris"
+	"github.com/h4tr3d/iris/adaptors/httprouter"
+	"github.com/h4tr3d/iris/adaptors/sessions"
 )
 
 func main() {
@@ -32,7 +32,7 @@ func main() {
 	})
 
 	// OPTIONALLY:
-	// import "github.com/iris-framework/iris/adaptors/sessions/sessiondb/redis"
+	// import "github.com/h4tr3d/iris/adaptors/sessions/sessiondb/redis"
 	// or import "github.com/kataras/go-sessions/sessiondb/$any_available_community_database"
 	// mySessions.UseDatabase(redis.New(...))
 

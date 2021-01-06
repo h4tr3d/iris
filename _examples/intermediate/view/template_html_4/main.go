@@ -2,9 +2,9 @@
 package main
 
 import (
-	"github.com/iris-framework/iris"
-	"github.com/iris-framework/iris/adaptors/gorillamux"
-	"github.com/iris-framework/iris/adaptors/view"
+	"github.com/h4tr3d/iris"
+	"github.com/h4tr3d/iris/adaptors/gorillamux"
+	"github.com/h4tr3d/iris/adaptors/view"
 )
 
 func main() {

@@ -17,7 +17,7 @@ import (
 	"net/http/pprof"
 	"strings"
 
-	"github.com/iris-framework/iris"
+	"github.com/h4tr3d/iris"
 )
 
 // New returns a new pprof (profile, cmdline, symbol, goroutine, heap, threadcreate, debug/block) Middleware.

@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"testing"
 
-	. "github.com/iris-framework/iris"
-	"github.com/iris-framework/iris/httptest"
+	. "github.com/h4tr3d/iris"
+	"github.com/h4tr3d/iris/httptest"
 )
 
 // This will be removed at the final release

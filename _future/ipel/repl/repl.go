@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/iris-framework/iris/_future/ipel/lexer"
-	"github.com/iris-framework/iris/_future/ipel/token"
+	"github.com/h4tr3d/iris/_future/ipel/lexer"
+	"github.com/h4tr3d/iris/_future/ipel/token"
 )
 
 const PROMPT = ">> "

@@ -6,7 +6,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/iris-framework/iris"
+	"github.com/h4tr3d/iris"
 	"github.com/kataras/go-template"
 )
 

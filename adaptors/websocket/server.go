@@ -4,7 +4,7 @@ import (
 	"sync"
 
 	"github.com/gorilla/websocket"
-	"github.com/iris-framework/iris"
+	"github.com/h4tr3d/iris"
 )
 
 // Server is the websocket server,

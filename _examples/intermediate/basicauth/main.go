@@ -3,9 +3,9 @@ package main
 import (
 	"time"
 
-	"github.com/iris-framework/iris"
-	"github.com/iris-framework/iris/adaptors/httprouter"
-	"github.com/iris-framework/iris/middleware/basicauth"
+	"github.com/h4tr3d/iris"
+	"github.com/h4tr3d/iris/adaptors/httprouter"
+	"github.com/h4tr3d/iris/middleware/basicauth"
 )
 
 func main() {

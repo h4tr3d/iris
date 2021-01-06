@@ -13,9 +13,9 @@ import (
 	"time"
 
 	"github.com/iris-contrib/httpexpect"
-	"github.com/iris-framework/iris"
-	"github.com/iris-framework/iris/adaptors/httprouter"
-	"github.com/iris-framework/iris/httptest"
+	"github.com/h4tr3d/iris"
+	"github.com/h4tr3d/iris/adaptors/httprouter"
+	"github.com/h4tr3d/iris/httptest"
 )
 
 // White-box testing *

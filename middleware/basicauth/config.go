@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/imdario/mergo"
-	"github.com/iris-framework/iris"
+	"github.com/h4tr3d/iris"
 )
 
 const (

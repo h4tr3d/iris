@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/iris-framework/iris"
-	"github.com/iris-framework/iris/adaptors/cors"
-	"github.com/iris-framework/iris/adaptors/httprouter"
+	"github.com/h4tr3d/iris"
+	"github.com/h4tr3d/iris/adaptors/cors"
+	"github.com/h4tr3d/iris/adaptors/httprouter"
 )
 
 func main() {

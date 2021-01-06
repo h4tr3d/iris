@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/iris-framework/iris"
-	"github.com/iris-framework/iris/adaptors/gorillamux" // import the gorillamux adaptor
+	"github.com/h4tr3d/iris"
+	"github.com/h4tr3d/iris/adaptors/gorillamux" // import the gorillamux adaptor
 )
 
 func main() {

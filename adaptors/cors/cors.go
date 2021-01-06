@@ -4,13 +4,13 @@ package cors
 //  | Cors wrapper usage                                         |
 //  +------------------------------------------------------------+
 //
-// import "github.com/iris-framework/iris/adaptors/cors"
+// import "github.com/h4tr3d/iris/adaptors/cors"
 //
 // app := iris.New()
 // app.Adapt(cors.New(cors.Options{})))
 
 import (
-	"github.com/iris-framework/iris"
+	"github.com/h4tr3d/iris"
 	"github.com/rs/cors"
 )
 

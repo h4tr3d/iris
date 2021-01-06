@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/iris-framework/iris/_future/ipel/ast"
+	"github.com/h4tr3d/iris/_future/ipel/ast"
 )
 
 func TestParseError(t *testing.T) {

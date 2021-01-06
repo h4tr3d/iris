@@ -5,7 +5,7 @@ import (
 	"os"
 	"os/user"
 
-	"github.com/iris-framework/iris/_future/ipel/repl"
+	"github.com/h4tr3d/iris/_future/ipel/repl"
 )
 
 func main() {

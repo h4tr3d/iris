@@ -4,9 +4,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/iris-framework/iris"
-	"github.com/iris-framework/iris/adaptors/gorillamux"
-	"github.com/iris-framework/iris/httptest"
+	"github.com/h4tr3d/iris"
+	"github.com/h4tr3d/iris/adaptors/gorillamux"
+	"github.com/h4tr3d/iris/httptest"
 )
 
 func newGorillaMuxAPP() *iris.Framework {

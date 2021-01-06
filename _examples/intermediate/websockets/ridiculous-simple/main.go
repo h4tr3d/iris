@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/iris-framework/iris"
-	"github.com/iris-framework/iris/adaptors/httprouter"
-	"github.com/iris-framework/iris/adaptors/websocket"
+	"github.com/h4tr3d/iris"
+	"github.com/h4tr3d/iris/adaptors/httprouter"
+	"github.com/h4tr3d/iris/adaptors/websocket"
 )
 
 func handleConnection(c websocket.Connection) {
