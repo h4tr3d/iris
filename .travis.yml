@@ -1,6 +1,6 @@
 language: go
 
 go:
-    - go1.8
+    - go1.15
 
 go_import_path: github.com/h4tr3d/iris/v6
