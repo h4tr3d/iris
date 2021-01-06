@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/Unknwon/i18n"
+	"github.com/unknwon/i18n"
 	"github.com/h4tr3d/iris"
 )
 
